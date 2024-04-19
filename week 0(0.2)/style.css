@@ -1,0 +1,48 @@
+.msg {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+}
+
+.landing_image {
+  margin: 100px;
+  width: 70%;
+  height: 70%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(235, 220, 220);
+}
+
+nav img {
+  flex: 0.1;
+}
+
+nav a {
+  flex: 1;
+  gap: 2rem;
+  margin-left: 25px;
+  text-decoration: none;
+  align-content: center;
+  color: black;
+}
+
+button {
+  padding: 10px;
+  width: 10rem;
+  border-radius: 5px;
+  background-color: #387ed1;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
