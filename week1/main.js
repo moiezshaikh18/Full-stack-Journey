@@ -133,3 +133,78 @@ const ages = [21, 22, 23, 24, 25, 26, 85, 75];
 // let sub = calculate(minus(10, 6));
 
 // setTimeout(greetGender("male"), 5000);
+
+// Callback
+
+// function sum(a, b, clbck) {
+//   let result = a + b;
+//   return clbck(result);
+// }
+
+// function displayResult(data) {
+//   return "Result of sum" + data;
+// }
+
+// // function displayResultPassive(data) {
+// //   console.log("sum of result" + data);
+// // }
+
+// let abc = sum(2, 5, displayResult);
+
+// console.log(abc);
+
+// function textRecived(abc, xyz, clb) {
+//   return clb(abc, xyz);
+// }
+
+// function joined(str1, str2) {
+//   return str1 + str2;
+// }
+
+// let concat = textRecived("manas", "gupta", joined);
+
+// console.log(concat);
+
+////// Assignment 1 /////
+
+// let count = 30;
+
+// const x = setInterval(() => {
+//   console.log(count);
+//   count--;
+//   if (count == 0) {
+//     clearInterval(x);
+//   }
+// }, 1000);
+
+//// 222222222
+
+// let count = 30;
+
+// function deacreseCount() {
+//   return count--;
+// }
+
+// const x = setInterval(() => {
+
+//   deacreseCount();
+
+// }, 1000);
+
+//33333333
+
+// let hours = date.getHours().toLocaleString("en-IN");
+// let minutes = date.getMinutes();
+// let sec = date.getSeconds();
+
+// console.log(hours + ":" + minutes + ":" + sec);
+
+// setInterval(() => {
+//   let date = new Date();
+//   let hours = date.getHours().toLocaleString("en-IN");
+//   let minutes = date.getMinutes();
+//   let sec = date.getSeconds();
+
+//   console.clear();
+//   console.log("liveTime", hours + ":" + minutes + ":" + sec);
+// }, 1000);
