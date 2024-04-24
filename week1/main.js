@@ -208,3 +208,38 @@ const ages = [21, 22, 23, 24, 25, 26, 85, 75];
 //   console.clear();
 //   console.log("liveTime", hours + ":" + minutes + ":" + sec);
 // }, 1000);
+// let sum = 0;
+// for (let i = 0; i <= 50; i++) {
+//   sum = sum + i;
+// }
+// console.log(sum);
+
+///Functions
+
+// function findSum(n) {
+//   let sum = 0;
+//   for (let i = 0; i <= n; i++) {
+//     sum = sum + i;
+//   }
+//   return sum;
+// }
+// console.log(findSum(20));
+
+//Callback Function
+
+// function squre(n) {
+//   return n * n;
+// }
+
+// function cube(n) {
+//   return n * n * n;
+// }
+
+// function sum(a, b, clback) {
+//   return clback(a) + clback(b);
+// }
+
+// console.log(sum(2, 2, squre));
+// console.log(sum(2, 2, cube));
+
+/// asynchronous

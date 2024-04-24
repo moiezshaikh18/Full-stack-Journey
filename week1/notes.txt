@@ -1,5 +1,8 @@
 
 
 // Callback 
+//Loops
 
-  
+***Post-increaments/decreaments i++/i--
+***pre-increments/decreaments/--i/++i
+
